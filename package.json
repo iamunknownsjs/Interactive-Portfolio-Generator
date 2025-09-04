@@ -1,0 +1,41 @@
+{
+  "name": "interactive-portfolio-generator",
+  "version": "1.0.0",
+  "description": "Automatically create and update a dynamic GitHub portfolio using an intelligent agent",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "lint": "next lint",
+    "agent": "node lib/agent.js"
+  },
+  "keywords": [
+    "portfolio",
+    "github",
+    "automation",
+    "agent",
+    "react",
+    "nextjs"
+  ],
+  "author": "Interactive Portfolio Generator",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "chart.js": "^4.4.0",
+    "react-chartjs-2": "^5.2.0",
+    "axios": "^1.6.0",
+    "date-fns": "^2.30.0",
+    "lucide-react": "^0.292.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.0.0"
+  }
+}
